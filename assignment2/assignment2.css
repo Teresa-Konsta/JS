@@ -1,0 +1,33 @@
+﻿body {
+    background-color: #949AA6;
+    text-align: center;
+}
+
+table {
+    border: solid;
+    border-bottom-color: black;
+    font-family: Adventure;
+    word-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr {
+    border: double;
+    border-bottom-color: black;
+    background-color: #D4D6DB;
+}
+
+td {
+    border: double;
+    border-bottom-color: black;
+    background-color: #D4D6DB;
+}
+
+th {
+    border: double;
+    border-bottom-color: black;
+    background-color: #545D71;
+    color: #B14B1C;
+    text-shadow: 3px 2px #843915;
+}
