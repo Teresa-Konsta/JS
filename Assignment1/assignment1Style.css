@@ -1,0 +1,20 @@
+﻿body {
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 980px;
+    position: center;
+}
+input{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 20px;
+    border-radius: 10px;
+}
+option {
+    border-radius: 10px;
+}
+fieldset {
+    background-color: lightblue;
+    max-width: 600px;
+}

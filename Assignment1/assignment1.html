@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="assignment1Style.css" rel="stylesheet" type="text/css">
+    <title>Assignment_1</title>
+</head>
+<body>
+<script src="modernizr.custom.05819.js"></script>
+    
+    <div id="AllPage">
+        <main>
+            <form>
+                <fieldset>
+                    <legend>METRIC BMR CALCULATOR</legend>
+                    <label>GENDER</label>
+                    <select name="Select1" style="width: 75px; height: 30px" ; size=" 1" tabindex="2">
+                        <option id="gender" value="Male">Male</option>
+                        <option id="gender" value="Female">Female</option>
+                    </select><br />
+                    <label for="age">AGE</label><input id="age" type="number" style="width: 75px; height: 30px" value="0"><br />
+                    <p>YOUR HEIGHT</p>
+                    <label for="feet">FEET:</label><input id="feet" type="number" style="width: 75px; height: 30px" value="0">
+                    <label for="inches">INCHES:</label><input id="inches" type="number" style="width: 75px; height: 30px" value="0"><br />
+                    <p>YOUR WEIGHT</p>
+                    <label for="stones">STONES:</label><input id="stones" type="number" style="width: 75px; height: 30px" value="0">
+                    <label for="pounds">POUNDS:</label><input id="pounds" type="number" style="width: 75px; height: 30px" value="0"><br />
+                    <label id="activitySelection">Select your activity level:</label><br />
+                    <input id="activity1" name="optActivity" type="radio" value="1.53">
+                    "I am sedentary (little or no exercise)"<br />
+                    <input id="activity2" name="optActivity" type="radio" value="1.53">
+                    "I am lightly active (light exercise or sports 1-3 days per week)"<br />
+                    <input id="activity3" name="optActivity" type="radio" value="1.76">
+                    "I am moderately active (moderate exercise or sports 3-5 days per week)"<br />
+                    <input id="activity4"  name="optActivity" type="radio" value="1.76">
+                    "I am very active (hard exercise or sports 6-7 dyas per week)"<br />
+                    <input id="activity5"  name="optActivity" type="radio" value="2.25">
+                    "I am super active (very hard exercise or sports and a physical job or 2x training)"<br />
+                    <label><input id="calculatebmr" style="width: 120px; height: 30px" type="button" value="Calculate BMR"></label>
+                    <script src="assignment1Script.js"></script>               
+                </fieldset>
+            </form>
+        </main>
+    </div>
+    <!--<script>
+        document.getElementById("calculatebmr").addEventListener("click", calculateBMR, false);
+    </script>-->
+</body>
+</html>
